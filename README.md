@@ -73,7 +73,7 @@ If you like Ping please consider buying me a coffee 🥰
 
 # Imortant Message ✉️
 
-* In this frontend as well as backend part i had removed my local IP address, you must enter you local IP address there. For mac users the IP address will be 
+* In this frontend as well as backend part I had removed my local IP address, you must enter you local IP address there. For mac users the IP address will be 
 availabel at System Preference -> Network -> Wifi -> Advanced -> TCP/IP -> IPv4 Address(will be present there).
 
 * Still there are things to complete as well as to implement, If you find this app intresting than hit me up; I will be
