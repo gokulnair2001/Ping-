@@ -1,0 +1,393 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		55B1A0D3256F734200D171C8 /* onboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B1A0D2256F734200D171C8 /* onboardingViewController.swift */; };
+		55B1A0D6256F832F00D171C8 /* hapticFeedback.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B1A0D5256F832F00D171C8 /* hapticFeedback.swift */; };
+		55B9698E256E6BFA0056F2AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B9698D256E6BFA0056F2AE /* AppDelegate.swift */; };
+		55B96990256E6BFA0056F2AE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B9698F256E6BFA0056F2AE /* SceneDelegate.swift */; };
+		55B96992256E6BFA0056F2AE /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B96991256E6BFA0056F2AE /* MainViewController.swift */; };
+		55B96995256E6BFA0056F2AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55B96993256E6BFA0056F2AE /* Main.storyboard */; };
+		55B96997256E6BFC0056F2AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55B96996256E6BFC0056F2AE /* Assets.xcassets */; };
+		55B9699A256E6BFC0056F2AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55B96998256E6BFC0056F2AE /* LaunchScreen.storyboard */; };
+		55B969A4256E75F90056F2AE /* AddPingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B969A3256E75F90056F2AE /* AddPingViewController.swift */; };
+		55B969A7256E76F40056F2AE /* PingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B969A6256E76F40056F2AE /* PingTableViewCell.swift */; };
+		55B969AB256E87A10056F2AE /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 55B969AA256E87A10056F2AE /* Alamofire */; };
+		55B969AE256E87C30056F2AE /* APIFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B969AD256E87C30056F2AE /* APIFunctions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		55B1A0D2256F734200D171C8 /* onboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onboardingViewController.swift; sourceTree = "<group>"; };
+		55B1A0D5256F832F00D171C8 /* hapticFeedback.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hapticFeedback.swift; sourceTree = "<group>"; };
+		55B9698A256E6BFA0056F2AE /* Ping.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ping.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		55B9698D256E6BFA0056F2AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		55B9698F256E6BFA0056F2AE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		55B96991256E6BFA0056F2AE /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		55B96994256E6BFA0056F2AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		55B96996256E6BFC0056F2AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		55B96999256E6BFC0056F2AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		55B9699B256E6BFC0056F2AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55B969A3256E75F90056F2AE /* AddPingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPingViewController.swift; sourceTree = "<group>"; };
+		55B969A6256E76F40056F2AE /* PingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PingTableViewCell.swift; sourceTree = "<group>"; };
+		55B969AD256E87C30056F2AE /* APIFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIFunctions.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55B96987256E6BFA0056F2AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55B969AB256E87A10056F2AE /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		55B96981256E6BFA0056F2AE = {
+			isa = PBXGroup;
+			children = (
+				55B9698C256E6BFA0056F2AE /* Ping */,
+				55B9698B256E6BFA0056F2AE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		55B9698B256E6BFA0056F2AE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55B9698A256E6BFA0056F2AE /* Ping.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55B9698C256E6BFA0056F2AE /* Ping */ = {
+			isa = PBXGroup;
+			children = (
+				55B9698D256E6BFA0056F2AE /* AppDelegate.swift */,
+				55B9698F256E6BFA0056F2AE /* SceneDelegate.swift */,
+				55B96991256E6BFA0056F2AE /* MainViewController.swift */,
+				55B96993256E6BFA0056F2AE /* Main.storyboard */,
+				55B1A0D5256F832F00D171C8 /* hapticFeedback.swift */,
+				55B1A0D2256F734200D171C8 /* onboardingViewController.swift */,
+				55B969AD256E87C30056F2AE /* APIFunctions.swift */,
+				55B969A6256E76F40056F2AE /* PingTableViewCell.swift */,
+				55B969A3256E75F90056F2AE /* AddPingViewController.swift */,
+				55B96996256E6BFC0056F2AE /* Assets.xcassets */,
+				55B96998256E6BFC0056F2AE /* LaunchScreen.storyboard */,
+				55B9699B256E6BFC0056F2AE /* Info.plist */,
+			);
+			path = Ping;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		55B96989256E6BFA0056F2AE /* Ping */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55B9699E256E6BFC0056F2AE /* Build configuration list for PBXNativeTarget "Ping" */;
+			buildPhases = (
+				55B96986256E6BFA0056F2AE /* Sources */,
+				55B96987256E6BFA0056F2AE /* Frameworks */,
+				55B96988256E6BFA0056F2AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ping;
+			packageProductDependencies = (
+				55B969AA256E87A10056F2AE /* Alamofire */,
+			);
+			productName = Ping;
+			productReference = 55B9698A256E6BFA0056F2AE /* Ping.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		55B96982256E6BFA0056F2AE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					55B96989256E6BFA0056F2AE = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = 55B96985256E6BFA0056F2AE /* Build configuration list for PBXProject "Ping" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 55B96981256E6BFA0056F2AE;
+			packageReferences = (
+				55B969A9256E87A10056F2AE /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
+			productRefGroup = 55B9698B256E6BFA0056F2AE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55B96989256E6BFA0056F2AE /* Ping */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		55B96988256E6BFA0056F2AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55B9699A256E6BFC0056F2AE /* LaunchScreen.storyboard in Resources */,
+				55B96997256E6BFC0056F2AE /* Assets.xcassets in Resources */,
+				55B96995256E6BFA0056F2AE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55B96986256E6BFA0056F2AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55B969A4256E75F90056F2AE /* AddPingViewController.swift in Sources */,
+				55B96992256E6BFA0056F2AE /* MainViewController.swift in Sources */,
+				55B9698E256E6BFA0056F2AE /* AppDelegate.swift in Sources */,
+				55B969A7256E76F40056F2AE /* PingTableViewCell.swift in Sources */,
+				55B969AE256E87C30056F2AE /* APIFunctions.swift in Sources */,
+				55B1A0D6256F832F00D171C8 /* hapticFeedback.swift in Sources */,
+				55B96990256E6BFA0056F2AE /* SceneDelegate.swift in Sources */,
+				55B1A0D3256F734200D171C8 /* onboardingViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		55B96993256E6BFA0056F2AE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55B96994256E6BFA0056F2AE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		55B96998256E6BFC0056F2AE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55B96999256E6BFC0056F2AE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		55B9699C256E6BFC0056F2AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		55B9699D256E6BFC0056F2AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		55B9699F256E6BFC0056F2AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GJM8829Q7N;
+				INFOPLIST_FILE = Ping/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gokulnair.Ping;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		55B969A0256E6BFC0056F2AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GJM8829Q7N;
+				INFOPLIST_FILE = Ping/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gokulnair.Ping;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		55B96985256E6BFA0056F2AE /* Build configuration list for PBXProject "Ping" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55B9699C256E6BFC0056F2AE /* Debug */,
+				55B9699D256E6BFC0056F2AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55B9699E256E6BFC0056F2AE /* Build configuration list for PBXNativeTarget "Ping" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55B9699F256E6BFC0056F2AE /* Debug */,
+				55B969A0256E6BFC0056F2AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		55B969A9256E87A10056F2AE /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.4.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		55B969AA256E87A10056F2AE /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 55B969A9256E87A10056F2AE /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 55B96982256E6BFA0056F2AE /* Project object */;
+}
