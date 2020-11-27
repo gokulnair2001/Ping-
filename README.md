@@ -1,5 +1,4 @@
-# Ping-
-Ping is a Notes App which uses custom backend to save data. The custom backend is made on Node JS and Mongo DB.
+# Ping!
 
 ![Badge](https://img.shields.io/badge/License-MIT-yellow) 
 ![Badge](https://img.shields.io/badge/Xcode-12.01-green)
