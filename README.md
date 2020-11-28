@@ -82,5 +82,3 @@ glad to work with you.
 The backend files are provided in my another repository.
 [Backend Of Ping App](https://github.com/gokulnair2001/Ping-App-Backend)
 
-# Credits ⭐️
-* Thank you to Code With Chris and Alis for this amazing session on Full stack ios app developement. [Tutorial](https://www.youtube.com/watch?v=vKCdVAg5h40)
