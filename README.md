@@ -13,7 +13,7 @@
 ![badge](https://img.shields.io/badge/Visual-Studio-blue)
 
 # Introduction ⚒  
-Ping is a Notes app which use custom backend to save all the notes. Whole server of Ping is made on Node JS and MongoDB. The app uses users's local IP address to create server
+Ping is a Notes app which use custom backend to save all the notes. Whole server of Ping is made on Node JS and MongoDB. The app uses users's local IP address to create Server
 and save the data. The app consists of all CRUD(Create,Read,Update,Delete) functions. 
 
 # Idea ❤️
