@@ -3,7 +3,7 @@
 ![Badge](https://img.shields.io/badge/License-MIT-yellow) 
 ![Badge](https://img.shields.io/badge/Xcode-12.01-green)
 ![badge](https://img.shields.io/badge/Swift-5.0-red)
-![badge](https://img.shields.io/badge/iOS-14.1-blue)
+![badge](https://img.shields.io/badge/iOS-14.01-blue)
 ![badge](https://img.shields.io/badge/Platfrom-iOS-orange)
 ![Badge](https://img.shields.io/badge/Notes-App-yellowgreen)
 ![badge](https://img.shields.io/badge/Ping!-App-red)
@@ -22,7 +22,7 @@ developement.
 
 # Steps to run 📲
 
-* Clone or download the app from this repository. 👩‍💻
+* Clone or download the App from this repository. 👩‍💻
 * Open project file in terminal. 💻
 * Open the Ping.xcodeproj file. 💾
 * Change the bundle identifier. ⚙️
