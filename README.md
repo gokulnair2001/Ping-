@@ -64,12 +64,6 @@ MIT License<br> Please read the [License](https://github.com/gokulnair2001/Ping-
 * If you face issues in any step open a new issue.
 * To fix issues: Fork this repository, make your changes and make a Pull Request. 
 
-# Like the Project ?
-If you like Ping please consider buying me a coffee 🥰
-
-[<img width="200" alt="BMC logo+wordmark - Black" src="https://user-images.githubusercontent.com/56252259/98195548-0c55fb80-1f48-11eb-8293-02131a0d908c.png">](https://www.buymeacoffee.com/gokulnair)
-
-
 # Imortant Message ✉️
 
 * In this frontend as well as backend part I had removed my local IP address, you must enter you local IP address there. For mac users the IP address will be 
@@ -81,4 +75,13 @@ glad to work with you.
 # Backend(Server) 🗼
 The backend files are provided in my another repository.
 [Backend Of Ping App](https://github.com/gokulnair2001/Ping-App-Backend)
+
+# Like the Project ?
+**If you like using any of my projects or like what I'm doing, please consider backing me with appreciating my work:** [Message me](https://www.linkedin.com/in/gokul-r-nair/)🥰
+
+[<img width="200" alt="BMC logo+wordmark - Black" src="https://cdn.buymeacoffee.com/buttons/v2/default-red.png">](https://www.buymeacoffee.com/gokulnair)
+
+OR
+
+**Drop a star ⭐ if you find this project interesting!**
 
